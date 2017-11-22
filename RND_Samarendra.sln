@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send", "Send\Send.csproj", "{4810ED5C-3959-452A-802C-C7F0C3EF21E1}"
 EndProject
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Received", "Received\Receiv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus", "EventBus\EventBus.csproj", "{07A8E0BE-BC41-4233-AC4C-CD6C61246F02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventRebbitMQ", "EventRebbitMQ\EventRebbitMQ.csproj", "{9BADBDA2-8961-452E-8213-09D361E5392B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventRebbitMQ", "EventRebbitMQ\EventRebbitMQ.csproj", "{9BADBDA2-8961-452E-8213-09D361E5392B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQ", "RabbitMQ", "{F3EA8F06-70C9-4AF3-87DB-07C79260E48D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4810ED5C-3959-452A-802C-C7F0C3EF21E1} = {F3EA8F06-70C9-4AF3-87DB-07C79260E48D}
+		{36AFDA22-3BEA-478E-BCD1-BEB2E7BD55A1} = {F3EA8F06-70C9-4AF3-87DB-07C79260E48D}
+		{07A8E0BE-BC41-4233-AC4C-CD6C61246F02} = {F3EA8F06-70C9-4AF3-87DB-07C79260E48D}
+		{9BADBDA2-8961-452E-8213-09D361E5392B} = {F3EA8F06-70C9-4AF3-87DB-07C79260E48D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7DAD7723-723A-4CF2-8570-AB307CF7309F}
