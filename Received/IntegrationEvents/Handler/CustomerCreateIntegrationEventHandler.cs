@@ -16,12 +16,13 @@ namespace Received.IntegrationEvents.Handler
         }
         public async Task Handle(CustomerCreateIntegrationEvent @event)
         {
-            Console.WriteLine("First Name :{0}", @event.FirstName);
-            //await new Task(() => {
-            //     Console.WriteLine("First Name :{0}", @event.FirstName);
-            //     Console.WriteLine("Last Name :{0}", @event.LastName);
-            //     Console.WriteLine("Email Id :{0}", @event.EmailId);
-            // });
+            // Console.WriteLine("First Name :{0}", @event.FirstName);
+            await new Task(() =>
+            {
+                Console.WriteLine("First Name :{0}", @event.FirstName);
+                Console.WriteLine("Last Name :{0}", @event.LastName);
+                Console.WriteLine("Email Id :{0}", @event.EmailId);
+            });
 
 
         }
