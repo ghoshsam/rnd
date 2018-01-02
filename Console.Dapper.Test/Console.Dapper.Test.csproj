@@ -1,16 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="1.50.4" />
-    <PackageReference Include="Dapper.Extensions.Linq.Core" Version="1.0.8" />
-    <PackageReference Include="DapperExtensions" Version="1.6.3" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\DapperOrm\Dapper.Data.csproj" />
     <ProjectReference Include="..\DataAccessWithDapper\DataAccessWithDapper.csproj" />
   </ItemGroup>
 

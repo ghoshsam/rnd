@@ -1,8 +1,8 @@
 ﻿namespace DataAccessWithDapper
 {
-    public interface IDataFactory
+    public interface IConnectionFactory<T>
     {
-        T CreateDatabase<T>();
+        T CreateDatabase();
 
     }
 }
