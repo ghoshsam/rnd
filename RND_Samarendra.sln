@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send", "Send\Send.csproj", "{4810ED5C-3959-452A-802C-C7F0C3EF21E1}"
 EndProject
@@ -27,7 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF20.Data", "EF20.Data\EF20
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Data", "DapperOrm\Dapper.Data.csproj", "{8AC30C29-B299-42DE-B74A-858BC389C638}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.Dapper.Test", "Console.Dapper.Test\Console.Dapper.Test.csproj", "{15A51722-08A5-4F27-A2BE-F737160E52A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.Dapper.Test", "Console.Dapper.Test\Console.Dapper.Test.csproj", "{15A51722-08A5-4F27-A2BE-F737160E52A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WSSE", "WSSE", "{4FFDFF66-EF71-42C1-892B-77B40C68E7F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppWSSEGenerate", "WSSE\ConsoleAppWSSEGenerate\ConsoleAppWSSEGenerate.csproj", "{B0648F3C-EF02-4FC0-B187-85B9AC507ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InSync.WSSEHeader", "InSync.HttpClient.WSSEHeader\InSync.WSSEHeader.csproj", "{9111D346-106D-4C83-AD6C-2536A6746422}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,14 @@ Global
 		{15A51722-08A5-4F27-A2BE-F737160E52A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15A51722-08A5-4F27-A2BE-F737160E52A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15A51722-08A5-4F27-A2BE-F737160E52A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0648F3C-EF02-4FC0-B187-85B9AC507ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0648F3C-EF02-4FC0-B187-85B9AC507ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0648F3C-EF02-4FC0-B187-85B9AC507ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0648F3C-EF02-4FC0-B187-85B9AC507ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9111D346-106D-4C83-AD6C-2536A6746422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9111D346-106D-4C83-AD6C-2536A6746422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9111D346-106D-4C83-AD6C-2536A6746422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9111D346-106D-4C83-AD6C-2536A6746422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +104,8 @@ Global
 		{F7DCAFA6-D54A-486C-BB68-C6D632CA9A84} = {557B8A88-E75A-43C0-ADBE-CFF28F5623C5}
 		{8AC30C29-B299-42DE-B74A-858BC389C638} = {557B8A88-E75A-43C0-ADBE-CFF28F5623C5}
 		{15A51722-08A5-4F27-A2BE-F737160E52A5} = {557B8A88-E75A-43C0-ADBE-CFF28F5623C5}
+		{B0648F3C-EF02-4FC0-B187-85B9AC507ED7} = {4FFDFF66-EF71-42C1-892B-77B40C68E7F0}
+		{9111D346-106D-4C83-AD6C-2536A6746422} = {4FFDFF66-EF71-42C1-892B-77B40C68E7F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7DAD7723-723A-4CF2-8570-AB307CF7309F}
